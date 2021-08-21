@@ -1,0 +1,15 @@
+---
+label: pages
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Text for title
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
